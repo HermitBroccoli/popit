@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    outline: none;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    background-color: #D4D4D4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg {
+    background: rgb(131, 58, 180);
+    background: -moz-linear-gradient(145deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: -webkit-linear-gradient(145deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(145deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4", endColorstr="#fcb045", GradientType=1);
+}
+
+.popit {
+    width: 750px;
+    height: 750px;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    background: rgb(131, 58, 180);
+    background: -moz-linear-gradient(145deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: -webkit-linear-gradient(145deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(145deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4", endColorstr="#fcb045", GradientType=1);
+    box-shadow: inset 6px 6px 40px rgba(0, 0, 0, 0.6),
+    -6px -6px 20px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.popit-item {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 2rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6),
+    -2px -2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.popit-item_insert {
+    box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.6),
+    -6px -6px 20px rgba(0, 0, 0, 0.6);
+}
+
+.popit-item:nth-child(4n) {
+    margin: 0;
+}
+
+.btns {
+    margin-top: 2rem;
+}
+
+.clear {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
