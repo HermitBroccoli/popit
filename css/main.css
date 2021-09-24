@@ -29,8 +29,8 @@ button {
 }
 
 .popit {
-    width: 750px;
-    height: 750px;
+    width: 850px;
+    height: 850px;
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;
@@ -50,8 +50,8 @@ button {
 }
 
 .popit-item {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: rgba(0, 0, 0, 1);
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -69,7 +69,7 @@ button {
     -6px -6px 20px rgba(0, 0, 0, 0.6);
 }
 
-.popit-item:nth-child(4n) {
+.popit-item:nth-child(6n) {
     margin: 0;
 }
 

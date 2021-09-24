@@ -2,11 +2,18 @@ const conteiner = document.querySelector('.conteiner');
 
 //pop it item
 const popitConteniner = document.querySelector('.popit'),
-    popitItem = popitConteniner.querySelectorAll('.popit-item');
+    popitItem = popitConteniner.querySelectorAll('.popit-item'),
+    audio = document.querySelector('audio');
+
+audio.pause();
+audio.currentTime = 0;
 
 popitItem.forEach(item => {
     item.addEventListener('click', () => {
+        audio.pause();
+        audio.currentTime = 0;
         item.classList.toggle('popit-item_insert');
+        audio.play();
     });
 });
 
